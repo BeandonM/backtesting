@@ -1,7 +1,7 @@
 from backtesting import Backtest, Strategy
 import pandas as pd
 class BacktestEngine:
-    def __init__(self, data, benchmark, strategy, cash=10000, comission = 0.00):
+    def __init__(self, data, benchmark, strategy, cash=10000, comission = 0.000):
         self.data = data
         self.benchmark = benchmark
         self.strategy = strategy
