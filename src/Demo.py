@@ -1,9 +1,9 @@
 from data.yFinanceData import get_ticker_data
 from features.BacktestEngine import BacktestEngine
-from models.DemoModel import Alpha3
+from models.RsiSmaModel import RsiSmaModel
 
 data = get_ticker_data("SPY",start="2020-01-01", end="2025-01-01")
-bt = BacktestEngine(data,None,Alpha3,10000,0.002)
+bt = BacktestEngine(data,None,RsiSmaModel,10000,0.002)
 results = bt.run(plot=True)
 for period in results:
     print()
