@@ -1,12 +1,14 @@
 from backtesting import Backtest, Strategy
+from backtesting import set_bokeh_output
+set_bokeh_output(notebook=False)
 import pandas as pd
 class BacktestEngine:
-    def __init__(self, data, benchmark, strategy, cash=10000, comission = 0.000):
+    def __init__(self, data, benchmark, strategy, cash=10000, commission = 0.000):
         self.data = data
         self.benchmark = benchmark
         self.strategy = strategy
         self.cash = cash
-        self.comission = comission
+        self.commission = commission
         
     def run(self, window_size = 2, step_size = 6, plot = False):
         if not isinstance(self.data.index, pd.DatetimeIndex):

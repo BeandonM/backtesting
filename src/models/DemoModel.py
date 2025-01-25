@@ -1,47 +1,40 @@
 from backtesting import Strategy
-from src.data.yFinanceData import get_ticker_data
-from src.features.BacktestEngine import BacktestEngine
+import pandas as pd
 
-class SPYVIXStrategy(Strategy):
+import talib
+
+class Alpha3(Strategy):
+
     def init(self):
-        # Calculate VIX 20-day SMA using TA-Lib with the injected VIX data
-        self.vix_data['SMA'] = talib.SMA(self.vix_data['Close'], timeperiod=21)
-        # Calculate SPY's 20-day SMA using TA-Lib; note that self.I registers the indicator
-        self.spy_sma20 = self.I(talib.SMA, self.data.Close, 20)
+
+        # Create a pandas Series for open and volume from the data
+        self.open_series = pd.Series(self.data.Open)
+        self.volume_series = pd.Series(self.data.Volume)
+
+        # Compute rank values for open and volume
+        # Using self.I to ensure these are calculated only once.
+        self.open_rank = self.I(lambda: self.open_series.rank(), name='open_rank')
+        self.volume_rank = self.I(lambda: self.volume_series.rank(), name='volume_rank')
 
     def next(self):
-        # Force an exit at the open of the bar if a position exists.
-        if self.position:
-            # We force a close based on the current bar’s Open.
-            # Note: Orders will be executed at the next available price
-            # and backtesting.py uses "open" of the next bar for pending orders.
-            # However, to simulate an immediate exit at open,
-            # we can close at the very start of this bar.
-            # One typical workaround is to close immediately and treat that bar as the exit.
-            self.position.close()
-            # Optionally print a message for debugging:
-            print(f"Exiting position at bar {self.data.index[-1]} (simulated open price exit)")
-            # Return so we don't then open a new position on the same bar.
-            return
+      if len(self.open_rank) < 10:
+        return
+      # Calculate rolling correlation between the ranked open and volume series using the last 10 bars
+      open_window = pd.Series(self.open_rank[-10:])
+      volume_window = pd.Series(self.volume_rank[-10:])
+      raw_corr = open_window.corr(volume_window)
 
-        # Now, if no position, evaluate entry conditions.
-        i = len(self.data) - 1
-        vix_close = self.vix_data['Close'].iloc[i]
-        vix_sma = self.vix_data['SMA'].iloc[i]
+      signal = -1 * raw_corr
 
-        if self.data.Close[-1] > self.spy_sma20[-1] and vix_close < vix_sma:
-            print(f"Entering position at bar {self.data.index[-1]}")
-            self.buy()
+      # Define a threshold
+      threshold = 0.5
 
-data = get_ticker_data("SPY",start="2010-01-01", end="2025-01-01")
-bt = BacktestEngine(data,None,SPYVIXStrategy,10000,0.002)
-results = bt.run()
-for period in results:
-    print()
-    print("TRAIN PERIOD:", period['train_period'])
-    print(period['train_results'])
-    print()
-    print("TEST PERIOD:", period['test_period'])
-    print(period['test_results'])
-    print("=" * 80)
-    print()
+      # Implement the trading logic using the inverted correlation (signal):
+      if signal > threshold:
+          # Enter long only if you aren't already in one.
+          if not self.position:
+              self.buy()
+      else:
+          # Otherwise, if you are in a long position, exit (remain flat).
+          if self.position:
+              self.position.close()
