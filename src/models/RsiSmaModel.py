@@ -19,5 +19,5 @@ class RsiSmaModel(Strategy):
             if self.data.Close[-1] > self.ma5[-1]:
                 self.position.close()
         else:
-            if (self.data.Close[-1] > self.ma200[-1] and (self.rsi2[-1] < 5)):
+            if (self.data.Close[-1] > self.ma200[-1] and (self.rsi2[-1] < 9)):
                 self.buy()
