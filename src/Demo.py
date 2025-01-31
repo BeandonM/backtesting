@@ -1,9 +1,22 @@
 from data.yFinanceData import get_ticker_data
 from features.BacktestEngine import BacktestEngine
-from models.RsiSmaModel import RsiSmaModel
+from models.RSIPowerZonesStrategy import RSIPowerZonesStrategy
+from backtesting import Backtest, Strategy
 
-data = get_ticker_data("SPY",start="2019-01-01", end="2025-01-03")
-bt = BacktestEngine(data,data,RsiSmaModel,10000,0.002)
+data = get_ticker_data("FNGU",start="2010-01-01", end="2025-01-24")
+bt_train = Backtest(
+                data,
+                RSIPowerZonesStrategy,
+                cash=10000,
+                commission=0.00,
+                exclusive_orders=False,  # Prevent overlap of trades
+                trade_on_close = True
+            )
+train_results = bt_train.run()
+bt_train.plot()
+print(train_results)
+'''
+bt = BacktestEngine(data,data,RSIPowerZonesStrategy,10000,0.002)
 results = bt.run(window_size=3,step_size=6,plot=False)
 for period in results:
     print()
@@ -43,3 +56,4 @@ with open(output_filename, 'w') as f:
         print("\n", file=f)
 
 print(f"Backtest results have been written to {output_filename}")
+'''

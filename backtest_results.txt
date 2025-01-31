@@ -4,32 +4,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2022-01-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2021-12-31 00:00:00
 Duration                   1094 days 00:00:00
-Exposure Time [%]                   10.435931
-Equity Final [$]                 11503.393874
-Equity Peak [$]                  11650.129639
-Return [%]                          15.033939
-Buy & Hold Return [%]               99.681428
-Return (Ann.) [%]                    4.772799
-Volatility (Ann.) [%]                6.644111
-Sharpe Ratio                          0.71835
-Sortino Ratio                        1.072357
-Calmar Ratio                         0.545747
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                   -1.923004
-Max. Drawdown Duration      267 days 00:00:00
-Avg. Drawdown Duration       54 days 00:00:00
-# Trades                                   19
-Win Rate [%]                        78.947368
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.746984
-Max. Trade Duration           8 days 00:00:00
+Exposure Time [%]                   14.398943
+Equity Final [$]                 11309.586967
+Equity Peak [$]                  11309.586967
+Return [%]                           13.09587
+Buy & Hold Return [%]               99.681388
+Return (Ann.) [%]                    4.181846
+Volatility (Ann.) [%]                8.617944
+Sharpe Ratio                         0.485249
+Sortino Ratio                        0.706213
+Calmar Ratio                         0.470923
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.322567
+Max. Drawdown Duration      375 days 00:00:00
+Avg. Drawdown Duration       83 days 00:00:00
+# Trades                                   29
+Win Rate [%]                        65.517241
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.436654
+Max. Trade Duration          13 days 00:00:00
 Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        3.261861
-Expectancy [%]                       0.761068
-SQN                                  1.971882
-Kelly Criterion                       0.54899
-_strategy                         RsiSmaModel
+Profit Factor                         1.68361
+Expectancy [%]                       0.455402
+SQN                                  1.216039
+Kelly Criterion                      0.261348
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -39,32 +39,32 @@ TEST PERIOD: (Timestamp('2022-01-02 00:00:00'), Timestamp('2022-07-02 00:00:00')
 Start                     2021-03-19 00:00:00
 End                       2022-07-01 00:00:00
 Duration                    469 days 00:00:00
-Exposure Time [%]                    4.307692
-Equity Final [$]                  9683.294448
-Equity Peak [$]                  10058.198501
-Return [%]                          -3.167056
-Buy & Hold Return [%]               -0.399145
-Return (Ann.) [%]                   -2.464536
-Volatility (Ann.) [%]                3.409787
-Sharpe Ratio                        -0.722783
-Sortino Ratio                       -0.937116
-Calmar Ratio                        -0.423413
-Max. Drawdown [%]                   -5.820637
-Avg. Drawdown [%]                   -3.259384
+Exposure Time [%]                    4.615385
+Equity Final [$]                  9657.333861
+Equity Peak [$]                  10051.345626
+Return [%]                          -3.426661
+Buy & Hold Return [%]               -0.399137
+Return (Ann.) [%]                   -2.667351
+Volatility (Ann.) [%]                3.465165
+Sharpe Ratio                        -0.769762
+Sortino Ratio                       -0.983362
+Calmar Ratio                        -0.443473
+Max. Drawdown [%]                   -6.014693
+Avg. Drawdown [%]                   -3.453838
 Max. Drawdown Duration      164 days 00:00:00
-Avg. Drawdown Duration       85 days 00:00:00
-# Trades                                    2
-Win Rate [%]                             50.0
-Best Trade [%]                       0.589594
-Worst Trade [%]                     -3.878971
-Avg. Trade [%]                      -1.670069
-Max. Trade Duration          12 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        0.151998
-Expectancy [%]                      -1.644689
-SQN                                 -0.731248
-Kelly Criterion                     -2.720908
-_strategy                         RsiSmaModel
+Avg. Drawdown Duration       86 days 00:00:00
+# Trades                                    4
+Win Rate [%]                             25.0
+Best Trade [%]                       1.847301
+Worst Trade [%]                     -2.951127
+Avg. Trade [%]                      -0.906075
+Max. Trade Duration          11 days 00:00:00
+Avg. Trade Duration           5 days 00:00:00
+Profit Factor                        0.341364
+Expectancy [%]                      -0.891056
+SQN                                 -0.886582
+Kelly Criterion                     -0.475072
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                      Size  EntryBa...
 dtype: object
@@ -77,32 +77,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2022-07-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2022-07-01 00:00:00
 Duration                   1276 days 00:00:00
-Exposure Time [%]                   10.544218
-Equity Final [$]                 11126.460109
-Equity Peak [$]                  11650.129639
-Return [%]                          11.264601
-Buy & Hold Return [%]               61.472373
-Return (Ann.) [%]                    3.096723
-Volatility (Ann.) [%]                 6.46104
-Sharpe Ratio                         0.479292
-Sortino Ratio                        0.698017
-Calmar Ratio                         0.354095
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                   -2.175464
-Max. Drawdown Duration      273 days 00:00:00
-Avg. Drawdown Duration       72 days 00:00:00
-# Trades                                   21
-Win Rate [%]                        76.190476
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.514251
-Max. Trade Duration          12 days 00:00:00
+Exposure Time [%]                   14.058957
+Equity Final [$]                 10920.193628
+Equity Peak [$]                   11367.93427
+Return [%]                           9.201936
+Buy & Hold Return [%]               61.472343
+Return (Ann.) [%]                    2.546999
+Volatility (Ann.) [%]                8.168656
+Sharpe Ratio                         0.311801
+Sortino Ratio                         0.44458
+Calmar Ratio                         0.286821
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.577612
+Max. Drawdown Duration      375 days 00:00:00
+Avg. Drawdown Duration       84 days 00:00:00
+# Trades                                   33
+Win Rate [%]                        60.606061
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.272935
+Max. Trade Duration          13 days 00:00:00
 Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        2.087504
-Expectancy [%]                       0.531949
-SQN                                  1.221533
-Kelly Criterion                      0.385198
-_strategy                         RsiSmaModel
+Profit Factor                          1.3899
+Expectancy [%]                       0.292195
+SQN                                  0.784005
+Kelly Criterion                      0.159893
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -116,7 +116,7 @@ Exposure Time [%]                         0.0
 Equity Final [$]                      10000.0
 Equity Peak [$]                       10000.0
 Return [%]                                0.0
-Buy & Hold Return [%]              -12.505531
+Buy & Hold Return [%]              -12.505524
 Return (Ann.) [%]                         0.0
 Volatility (Ann.) [%]                     0.0
 Sharpe Ratio                              NaN
@@ -137,7 +137,7 @@ Profit Factor                             NaN
 Expectancy [%]                            NaN
 SQN                                       NaN
 Kelly Criterion                           NaN
-_strategy                         RsiSmaModel
+_strategy                 RSIPowerZonesStr...
 _equity_curve                          Equ...
 _trades                   Empty DataFrame
 ...
@@ -151,32 +151,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2023-01-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2022-12-30 00:00:00
 Duration                   1458 days 00:00:00
-Exposure Time [%]                     9.22619
-Equity Final [$]                 11126.460109
-Equity Peak [$]                  11650.129639
-Return [%]                          11.264601
-Buy & Hold Return [%]               63.388604
-Return (Ann.) [%]                    2.704448
-Volatility (Ann.) [%]                6.019657
-Sharpe Ratio                         0.449269
-Sortino Ratio                        0.651732
-Calmar Ratio                         0.309241
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                   -2.175464
-Max. Drawdown Duration      455 days 00:00:00
-Avg. Drawdown Duration       90 days 00:00:00
-# Trades                                   21
-Win Rate [%]                        76.190476
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.514251
-Max. Trade Duration          12 days 00:00:00
+Exposure Time [%]                   12.301587
+Equity Final [$]                 10920.193628
+Equity Peak [$]                   11367.93427
+Return [%]                           9.201936
+Buy & Hold Return [%]               63.388561
+Return (Ann.) [%]                     2.22511
+Volatility (Ann.) [%]                7.614844
+Sharpe Ratio                         0.292207
+Sortino Ratio                         0.41524
+Calmar Ratio                         0.250572
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.577612
+Max. Drawdown Duration      375 days 00:00:00
+Avg. Drawdown Duration      104 days 00:00:00
+# Trades                                   33
+Win Rate [%]                        60.606061
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.272935
+Max. Trade Duration          13 days 00:00:00
 Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        2.087504
-Expectancy [%]                       0.531949
-SQN                                  1.221533
-Kelly Criterion                      0.385198
-_strategy                         RsiSmaModel
+Profit Factor                          1.3899
+Expectancy [%]                       0.292195
+SQN                                  0.784005
+Kelly Criterion                      0.159893
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -186,32 +186,32 @@ TEST PERIOD: (Timestamp('2023-01-02 00:00:00'), Timestamp('2023-07-02 00:00:00')
 Start                     2022-03-17 00:00:00
 End                       2023-06-30 00:00:00
 Duration                    470 days 00:00:00
-Exposure Time [%]                     6.17284
-Equity Final [$]                 10156.496875
-Equity Peak [$]                  10156.496875
-Return [%]                           1.564969
-Buy & Hold Return [%]                2.902139
-Return (Ann.) [%]                    1.215095
-Volatility (Ann.) [%]                3.635232
-Sharpe Ratio                         0.334255
-Sortino Ratio                         0.53495
-Calmar Ratio                         0.493971
-Max. Drawdown [%]                   -2.459851
-Avg. Drawdown [%]                     -1.4462
-Max. Drawdown Duration       92 days 00:00:00
-Avg. Drawdown Duration       47 days 00:00:00
-# Trades                                    5
-Win Rate [%]                             60.0
-Best Trade [%]                       1.554612
-Worst Trade [%]                     -1.501389
-Avg. Trade [%]                       0.326928
-Max. Trade Duration           9 days 00:00:00
-Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        2.005866
-Expectancy [%]                       0.332646
-SQN                                  0.598374
-Kelly Criterion                      0.293394
-_strategy                         RsiSmaModel
+Exposure Time [%]                    7.098765
+Equity Final [$]                 10464.265477
+Equity Peak [$]                  10464.265477
+Return [%]                           4.642655
+Buy & Hold Return [%]                2.902125
+Return (Ann.) [%]                     3.59267
+Volatility (Ann.) [%]                4.018151
+Sharpe Ratio                          0.89411
+Sortino Ratio                        1.821892
+Calmar Ratio                         1.998934
+Max. Drawdown [%]                   -1.797293
+Avg. Drawdown [%]                   -0.978223
+Max. Drawdown Duration       42 days 00:00:00
+Avg. Drawdown Duration       14 days 00:00:00
+# Trades                                    8
+Win Rate [%]                             75.0
+Best Trade [%]                       3.175119
+Worst Trade [%]                     -2.542804
+Avg. Trade [%]                       0.579466
+Max. Trade Duration          11 days 00:00:00
+Avg. Trade Duration           4 days 00:00:00
+Profit Factor                        2.767778
+Expectancy [%]                       0.590812
+SQN                                  1.037005
+Kelly Criterion                      0.477517
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                      Size  EntryBa...
 dtype: object
@@ -224,32 +224,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2023-07-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2023-06-30 00:00:00
 Duration                   1640 days 00:00:00
-Exposure Time [%]                    9.982332
-Equity Final [$]                 11304.023282
-Equity Peak [$]                  11650.129639
-Return [%]                          13.040233
-Buy & Hold Return [%]               90.815023
-Return (Ann.) [%]                     2.76624
-Volatility (Ann.) [%]                 6.01939
-Sharpe Ratio                         0.459555
-Sortino Ratio                        0.674538
-Calmar Ratio                         0.316306
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                   -2.190317
-Max. Drawdown Duration      637 days 00:00:00
-Avg. Drawdown Duration      109 days 00:00:00
-# Trades                                   26
-Win Rate [%]                        73.076923
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.478201
-Max. Trade Duration          12 days 00:00:00
+Exposure Time [%]                   12.985866
+Equity Final [$]                 11422.637317
+Equity Peak [$]                  11422.637317
+Return [%]                          14.226373
+Buy & Hold Return [%]               90.814972
+Return (Ann.) [%]                     3.00532
+Volatility (Ann.) [%]                7.540148
+Sharpe Ratio                         0.398576
+Sortino Ratio                        0.582135
+Calmar Ratio                         0.338433
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.577612
+Max. Drawdown Duration      493 days 00:00:00
+Avg. Drawdown Duration      121 days 00:00:00
+# Trades                                   41
+Win Rate [%]                        63.414634
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.332672
+Max. Trade Duration          13 days 00:00:00
 Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        2.076185
-Expectancy [%]                       0.493621
-SQN                                  1.363177
-Kelly Criterion                      0.368196
-_strategy                         RsiSmaModel
+Profit Factor                        1.524333
+Expectancy [%]                       0.350462
+SQN                                  1.129703
+Kelly Criterion                      0.210998
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -259,32 +259,32 @@ TEST PERIOD: (Timestamp('2023-07-02 00:00:00'), Timestamp('2024-01-02 00:00:00')
 Start                     2022-09-14 00:00:00
 End                       2024-01-02 00:00:00
 Duration                    475 days 00:00:00
-Exposure Time [%]                    9.480122
-Equity Final [$]                  9778.849121
-Equity Peak [$]                  10140.095241
-Return [%]                          -2.211509
-Buy & Hold Return [%]               22.660194
-Return (Ann.) [%]                   -1.708644
-Volatility (Ann.) [%]                3.559796
-Sharpe Ratio                        -0.479984
-Sortino Ratio                       -0.595894
-Calmar Ratio                        -0.312772
-Max. Drawdown [%]                   -5.462901
-Avg. Drawdown [%]                   -2.186819
-Max. Drawdown Duration      113 days 00:00:00
-Avg. Drawdown Duration       45 days 00:00:00
+Exposure Time [%]                   11.926606
+Equity Final [$]                  9641.043228
+Equity Peak [$]                  10018.807652
+Return [%]                          -3.589568
+Buy & Hold Return [%]               22.660211
+Return (Ann.) [%]                   -2.777831
+Volatility (Ann.) [%]                4.108309
+Sharpe Ratio                        -0.676149
+Sortino Ratio                       -0.841868
+Calmar Ratio                        -0.385603
+Max. Drawdown [%]                   -7.203857
+Avg. Drawdown [%]                   -3.928262
+Max. Drawdown Duration      148 days 00:00:00
+Avg. Drawdown Duration       77 days 00:00:00
 # Trades                                    6
-Win Rate [%]                             50.0
-Best Trade [%]                       1.598958
-Worst Trade [%]                     -2.636779
-Avg. Trade [%]                      -0.385951
-Max. Trade Duration          12 days 00:00:00
-Avg. Trade Duration           7 days 00:00:00
-Profit Factor                        0.568725
-Expectancy [%]                      -0.374417
-SQN                                 -0.556584
-Kelly Criterion                      -0.38373
-_strategy                         RsiSmaModel
+Win Rate [%]                        33.333333
+Best Trade [%]                       1.458166
+Worst Trade [%]                     -1.692007
+Avg. Trade [%]                      -0.613081
+Max. Trade Duration          20 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        0.337717
+Expectancy [%]                      -0.606466
+SQN                                 -1.232506
+Kelly Criterion                     -0.699356
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                      Size  EntryBa...
 dtype: object
@@ -297,32 +297,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2024-01-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2024-01-02 00:00:00
 Duration                   1826 days 00:00:00
-Exposure Time [%]                   11.437649
-Equity Final [$]                 11053.574001
-Equity Peak [$]                  11650.129639
-Return [%]                           10.53574
-Buy & Hold Return [%]              105.003148
-Return (Ann.) [%]                      2.0252
-Volatility (Ann.) [%]                5.971477
-Sharpe Ratio                         0.339146
-Sortino Ratio                        0.487558
-Calmar Ratio                         0.231572
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                    -2.21142
-Max. Drawdown Duration      823 days 00:00:00
-Avg. Drawdown Duration      127 days 00:00:00
-# Trades                                   32
-Win Rate [%]                            68.75
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.315603
-Max. Trade Duration          12 days 00:00:00
-Avg. Trade Duration           6 days 00:00:00
-Profit Factor                        1.617911
-Expectancy [%]                       0.330864
-SQN                                  0.993598
-Kelly Criterion                       0.24858
-_strategy                         RsiSmaModel
+Exposure Time [%]                    14.77363
+Equity Final [$]                 11016.642339
+Equity Peak [$]                  11444.009648
+Return [%]                          10.166423
+Buy & Hold Return [%]              105.003106
+Return (Ann.) [%]                    1.956878
+Volatility (Ann.) [%]                7.422066
+Sharpe Ratio                         0.263657
+Sortino Ratio                        0.377517
+Calmar Ratio                         0.220367
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.830405
+Max. Drawdown Duration      493 days 00:00:00
+Avg. Drawdown Duration      113 days 00:00:00
+# Trades                                   47
+Win Rate [%]                        59.574468
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.211438
+Max. Trade Duration          20 days 00:00:00
+Avg. Trade Duration           5 days 00:00:00
+Profit Factor                        1.326159
+Expectancy [%]                       0.228301
+SQN                                  0.772175
+Kelly Criterion                      0.135308
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -332,32 +332,32 @@ TEST PERIOD: (Timestamp('2024-01-02 00:00:00'), Timestamp('2024-07-02 00:00:00')
 Start                     2023-03-17 00:00:00
 End                       2024-07-02 00:00:00
 Duration                    473 days 00:00:00
-Exposure Time [%]                    3.374233
-Equity Final [$]                  10018.86693
-Equity Peak [$]                  10123.494333
-Return [%]                           0.188669
-Buy & Hold Return [%]               43.274749
-Return (Ann.) [%]                     0.14626
-Volatility (Ann.) [%]                2.196062
-Sharpe Ratio                         0.066601
-Sortino Ratio                        0.097506
-Calmar Ratio                         0.062805
-Max. Drawdown [%]                   -2.328806
-Avg. Drawdown [%]                     -1.0981
+Exposure Time [%]                    6.441718
+Equity Final [$]                  9880.683503
+Equity Peak [$]                  10107.305072
+Return [%]                          -1.193165
+Buy & Hold Return [%]               43.274737
+Return (Ann.) [%]                   -0.926408
+Volatility (Ann.) [%]                2.918716
+Sharpe Ratio                        -0.317402
+Sortino Ratio                       -0.430928
+Calmar Ratio                        -0.197693
+Max. Drawdown [%]                   -4.686096
+Avg. Drawdown [%]                   -1.904611
 Max. Drawdown Duration       91 days 00:00:00
-Avg. Drawdown Duration       58 days 00:00:00
-# Trades                                    3
-Win Rate [%]                        66.666667
-Best Trade [%]                       0.710211
-Worst Trade [%]                     -1.041699
-Avg. Trade [%]                       0.073422
-Max. Trade Duration           6 days 00:00:00
-Avg. Trade Duration           5 days 00:00:00
-Profit Factor                        1.220533
-Expectancy [%]                       0.076576
-SQN                                  0.113088
-Kelly Criterion                       0.10185
-_strategy                         RsiSmaModel
+Avg. Drawdown Duration       60 days 00:00:00
+# Trades                                    5
+Win Rate [%]                             60.0
+Best Trade [%]                       0.735438
+Worst Trade [%]                     -2.046399
+Avg. Trade [%]                      -0.247782
+Max. Trade Duration          11 days 00:00:00
+Avg. Trade Duration           6 days 00:00:00
+Profit Factor                        0.497581
+Expectancy [%]                      -0.243032
+SQN                                 -0.507852
+Kelly Criterion                     -0.620342
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                      Size  EntryBa...
 dtype: object
@@ -370,32 +370,32 @@ TRAIN PERIOD: (Timestamp('2019-01-02 00:00:00'), Timestamp('2024-07-02 00:00:00'
 Start                     2019-01-02 00:00:00
 End                       2024-07-02 00:00:00
 Duration                   2008 days 00:00:00
-Exposure Time [%]                   11.199422
-Equity Final [$]                 11074.430208
-Equity Peak [$]                  11650.129639
-Return [%]                          10.744302
-Buy & Hold Return [%]              139.633372
-Return (Ann.) [%]                    1.875577
-Volatility (Ann.) [%]                5.787018
-Sharpe Ratio                         0.324101
-Sortino Ratio                        0.465767
-Calmar Ratio                         0.214463
-Max. Drawdown [%]                    -8.74545
-Avg. Drawdown [%]                    -2.21142
-Max. Drawdown Duration     1005 days 00:00:00
-Avg. Drawdown Duration      145 days 00:00:00
-# Trades                                   35
-Win Rate [%]                        68.571429
-Best Trade [%]                       4.059117
-Worst Trade [%]                     -4.648309
-Avg. Trade [%]                       0.294822
-Max. Trade Duration          12 days 00:00:00
-Avg. Trade Duration           6 days 00:00:00
-Profit Factor                        1.595137
-Expectancy [%]                       0.309068
-SQN                                  1.003524
-Kelly Criterion                      0.241572
-_strategy                         RsiSmaModel
+Exposure Time [%]                   14.956647
+Equity Final [$]                 10884.603211
+Equity Peak [$]                  11444.009648
+Return [%]                           8.846032
+Buy & Hold Return [%]              139.633308
+Return (Ann.) [%]                    1.555365
+Volatility (Ann.) [%]                7.198145
+Sharpe Ratio                         0.216079
+Sortino Ratio                        0.307833
+Calmar Ratio                         0.175152
+Max. Drawdown [%]                   -8.880105
+Avg. Drawdown [%]                   -2.830405
+Max. Drawdown Duration      493 days 00:00:00
+Avg. Drawdown Duration      129 days 00:00:00
+# Trades                                   52
+Win Rate [%]                        59.615385
+Best Trade [%]                       3.779322
+Worst Trade [%]                     -3.206475
+Avg. Trade [%]                       0.167191
+Max. Trade Duration          20 days 00:00:00
+Avg. Trade Duration           5 days 00:00:00
+Profit Factor                        1.269415
+Expectancy [%]                       0.182981
+SQN                                  0.660206
+Kelly Criterion                      0.114565
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
@@ -405,34 +405,34 @@ TEST PERIOD: (Timestamp('2024-07-02 00:00:00'), Timestamp('2025-01-02 00:00:00')
 Start                     2023-09-15 00:00:00
 End                       2025-01-02 00:00:00
 Duration                    475 days 00:00:00
-Exposure Time [%]                    9.146341
-Equity Final [$]                 10627.105875
-Equity Peak [$]                  10648.323915
-Return [%]                           6.271059
+Exposure Time [%]                   11.280488
+Equity Final [$]                 10769.797576
+Equity Peak [$]                  10939.511409
+Return [%]                           7.697976
 Buy & Hold Return [%]               34.095707
-Return (Ann.) [%]                    4.798851
-Volatility (Ann.) [%]                3.673821
-Sharpe Ratio                         1.306229
-Sortino Ratio                        3.389038
-Calmar Ratio                         4.638654
-Max. Drawdown [%]                   -1.034535
-Avg. Drawdown [%]                   -0.724025
-Max. Drawdown Duration       56 days 00:00:00
-Avg. Drawdown Duration       27 days 00:00:00
-# Trades                                    9
-Win Rate [%]                        66.666667
-Best Trade [%]                        2.92375
-Worst Trade [%]                      -0.94676
-Avg. Trade [%]                       0.707571
-Max. Trade Duration           5 days 00:00:00
+Return (Ann.) [%]                    5.881599
+Volatility (Ann.) [%]                5.285085
+Sharpe Ratio                         1.112867
+Sortino Ratio                        1.996599
+Calmar Ratio                         1.900277
+Max. Drawdown [%]                   -3.095126
+Avg. Drawdown [%]                   -1.473952
+Max. Drawdown Duration       32 days 00:00:00
+Avg. Drawdown Duration       12 days 00:00:00
+# Trades                                   12
+Win Rate [%]                        58.333333
+Best Trade [%]                       3.028346
+Worst Trade [%]                     -2.302096
+Avg. Trade [%]                       0.714556
+Max. Trade Duration           7 days 00:00:00
 Avg. Trade Duration           4 days 00:00:00
-Profit Factor                        5.693044
-Expectancy [%]                       0.713516
-SQN                                  1.837149
-Kelly Criterion                       0.54721
-_strategy                         RsiSmaModel
+Profit Factor                        2.534139
+Expectancy [%]                       0.729771
+SQN                                  1.369847
+Kelly Criterion                      0.351266
+_strategy                 RSIPowerZonesStr...
 _equity_curve                             ...
-_trades                      Size  EntryBa...
+_trades                       Size  EntryB...
 dtype: object
 ================================================================================
 
